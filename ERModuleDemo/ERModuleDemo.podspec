@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.author             = { "胡广宇" => "" }
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/ErHu1993/ERModule.git", :tag => s.version }
-  s.source_files  = "Classes/*"
+  s.source_files  = "ERModuleDemo/Classes/*"
 end
