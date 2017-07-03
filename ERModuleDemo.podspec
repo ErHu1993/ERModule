@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "huguagnyu" => "199301055@.qq.com" }
   s.source       = { :git => "https://github.com/ErHu1993/ERModule.git", :tag => "1.0.0" }
-  s.source_files  = "ERModuleDemo/*"
+  s.source_files  = "ERModuleDemo/ERModuleDemo/Classes/*"
 end
