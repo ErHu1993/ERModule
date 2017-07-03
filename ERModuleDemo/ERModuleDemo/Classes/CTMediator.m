@@ -25,7 +25,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         mediator = [[CTMediator alloc] init];
-    });
+    }); 
     return mediator;
 }
 
