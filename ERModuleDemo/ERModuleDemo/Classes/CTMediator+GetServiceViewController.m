@@ -9,7 +9,6 @@
 #import "CTMediator+GetServiceViewController.h"
 
 
-
 @implementation CTMediator (GetServiceViewController)
 
 - (UIViewController *)GetServiceViewController_TabBarViewController{

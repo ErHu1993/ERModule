@@ -16,6 +16,9 @@
 		D803DBF51F09F08F0016D682 /* ERModuleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D803DBF41F09F08F0016D682 /* ERModuleDemoTests.m */; };
 		D803DC001F09F08F0016D682 /* ERModuleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D803DBFF1F09F08F0016D682 /* ERModuleDemoUITests.m */; };
 		D803DC101F09F54C0016D682 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D803DC0F1F09F54C0016D682 /* BaseViewController.m */; };
+		D803DC271F0A3EB70016D682 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D803DC221F0A3EB70016D682 /* CTMediator.m */; };
+		D803DC281F0A3EB70016D682 /* CTMediator+GetServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D803DC241F0A3EB70016D682 /* CTMediator+GetServiceViewController.m */; };
+		D803DC291F0A3EB70016D682 /* Target_ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D803DC261F0A3EB70016D682 /* Target_ServiceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		D803DC011F09F08F0016D682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D803DC0E1F09F54C0016D682 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		D803DC0F1F09F54C0016D682 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D803DC211F0A3EB70016D682 /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		D803DC221F0A3EB70016D682 /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		D803DC231F0A3EB70016D682 /* CTMediator+GetServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+GetServiceViewController.h"; sourceTree = "<group>"; };
+		D803DC241F0A3EB70016D682 /* CTMediator+GetServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+GetServiceViewController.m"; sourceTree = "<group>"; };
+		D803DC251F0A3EB70016D682 /* Target_ServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_ServiceViewController.h; sourceTree = "<group>"; };
+		D803DC261F0A3EB70016D682 /* Target_ServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_ServiceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +158,12 @@
 			children = (
 				D803DC0E1F09F54C0016D682 /* BaseViewController.h */,
 				D803DC0F1F09F54C0016D682 /* BaseViewController.m */,
+				D803DC211F0A3EB70016D682 /* CTMediator.h */,
+				D803DC221F0A3EB70016D682 /* CTMediator.m */,
+				D803DC231F0A3EB70016D682 /* CTMediator+GetServiceViewController.h */,
+				D803DC241F0A3EB70016D682 /* CTMediator+GetServiceViewController.m */,
+				D803DC251F0A3EB70016D682 /* Target_ServiceViewController.h */,
+				D803DC261F0A3EB70016D682 /* Target_ServiceViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -290,9 +305,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D803DBE21F09F08F0016D682 /* ViewController.m in Sources */,
+				D803DC271F0A3EB70016D682 /* CTMediator.m in Sources */,
 				D803DC101F09F54C0016D682 /* BaseViewController.m in Sources */,
+				D803DC281F0A3EB70016D682 /* CTMediator+GetServiceViewController.m in Sources */,
 				D803DBDF1F09F08E0016D682 /* AppDelegate.m in Sources */,
 				D803DBDC1F09F08E0016D682 /* main.m in Sources */,
+				D803DC291F0A3EB70016D682 /* Target_ServiceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
